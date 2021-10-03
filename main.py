@@ -11,12 +11,12 @@ import plotly.graph_objs as go
 import plotly.express as px
 
 st.set_page_config(
-    page_title="Jira Tracker",
+    page_title="Jira Dashboard",
     initial_sidebar_state="expanded",
     layout="wide"
 )
 
-st.title('Jira Tracker')
+st.title('Jira Dashboard')
 
 @st.cache(allow_output_mutation=True)
 def load_data(username, token, domain, projectKey):
